@@ -60,3 +60,32 @@ await app.listen(3000, async () => {
     await forestService.start();
 });
 ```
+
+#### Usage with dependency injection
+
+Once everything is set up, you can access the ForestService in your own services
+
+```typescript
+import { Injectable } from '@nestjs/common';
+
+import { ForestService } from 'nestjs-forest';
+
+@Injectable()
+export class AdminService {
+    constructor(private readonly _forestService: ForestService) {
+        this.customizeCollections();
+    }
+
+    customizeCollections = () => {
+        this._forestService.agent.customizeCollection('companies', (collection) => {
+            collection.addAction('Test', {
+                scope: 'Single',
+                execute: async (ctx, resultBuilder) => {
+                    console.log('This is my test action');
+                    return resultBuilder.success('Yes');
+                },
+            });
+        });
+    };
+};
+```
