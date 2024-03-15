@@ -1,0 +1,31 @@
+{
+  "name": "nestjs-forest",
+  "version": "1.0.0",
+  "description": "A NestJS module for Forest Admin",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "repository": "git@github.com:Segfaultd/nestjs-forest.git",
+  "author": "Segfault <5221072+Segfaultd@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "format": "prettier --write \"lib/**/*.ts\"",
+    "publish:npm": "npm publish --access public",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
+  },
+  "dependencies": {
+    "@forestadmin/agent": "^1.38.7",
+    "@forestadmin/datasource-sql": "^1.9.5",
+    "@nestjs/common": "^10.3.3",
+    "@nestjs/core": "^10.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.2"
+  }
+}

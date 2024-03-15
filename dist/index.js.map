@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"/","sources":["index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;AAAA,kDAAgC;AAChC,mDAAiC;AAEjC,8DAAkE;AAAzD,qHAAA,mBAAmB,OAAA","sourcesContent":["export * from './forest.module';\nexport * from './forest.service';\n\nexport { createSqlDataSource } from '@forestadmin/datasource-sql';\n"]}
