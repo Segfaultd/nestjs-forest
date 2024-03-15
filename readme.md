@@ -21,6 +21,7 @@ $ npm i --save nestjs-forest
 Start by binding the ForestModule to your AppModule, and give it the configuration payload for the Agent, along with potential data sources to bind
 
 ```typescript
+import { ConfigModule, ConfigService } from '@nestjs/config';
 import { ForestModule, createSqlDataSource } from 'nestjs-forest';
 
 ForestModule.forRootAsync({
