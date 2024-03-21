@@ -23,8 +23,8 @@
     "@nestjs/core": "^10.3.4"
   },
   "devDependencies": {
-    "@types/node": "^20.11.29",
+    "@types/node": "^20.11.30",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.3"
   }
 }
