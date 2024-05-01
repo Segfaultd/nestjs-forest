@@ -22,10 +22,10 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.39.2":
-  version "1.39.2"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.39.2.tgz#1541b495a01562d49312c084ee6667e17b7f90c3"
-  integrity sha512-J5n/607uSLAenzVqBztJPO8qlHTHElFC4Pib0tR5YM7qHf1O28aLUsV2IEVEao/d8YksLQn8x+PHSdeIV7ylzg==
+"@forestadmin/agent@^1.40.0":
+  version "1.40.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.40.0.tgz#f2283eef6c6cd085f376549e5265176bf81ff38f"
+  integrity sha512-TqwNdhAlWVjHo4jZSNM+O5e5G3kMT9BDBpT/SrWvlvLmvkoJ2kSwJpYfv7utdjhA6QNWzmatlqJqrxipC8nTSw==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
