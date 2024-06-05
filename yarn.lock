@@ -22,16 +22,16 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.40.0":
-  version "1.40.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.40.0.tgz#f2283eef6c6cd085f376549e5265176bf81ff38f"
-  integrity sha512-TqwNdhAlWVjHo4jZSNM+O5e5G3kMT9BDBpT/SrWvlvLmvkoJ2kSwJpYfv7utdjhA6QNWzmatlqJqrxipC8nTSw==
+"@forestadmin/agent@^1.40.1":
+  version "1.40.1"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.40.1.tgz#08463231ede434b973c0703486b4e098510adc75"
+  integrity sha512-r0SCa9vkbhOaksG83jCwLLnty/no1Oma8JDgabFs01bwdqf+ftxJBfescneiC5y22/W48H0vxEzLHCQng99KTA==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
     "@forestadmin/datasource-customizer" "1.44.3"
     "@forestadmin/datasource-toolkit" "1.33.0"
-    "@forestadmin/forestadmin-client" "1.27.1"
+    "@forestadmin/forestadmin-client" "1.27.2"
     "@koa/cors" "^5.0.0"
     "@koa/router" "^12.0.0"
     "@types/koa__router" "^12.0.0"
@@ -68,10 +68,10 @@
     object-hash "^3.0.0"
     uuid "^9.0.0"
 
-"@forestadmin/forestadmin-client@1.27.1":
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.27.1.tgz#29d7f2dd100e65e5be082a69628789d62c96f757"
-  integrity sha512-zsWg5a5QG2EspzogxppjfmMcAfOiBwL5pXkgCvr7uDvSMm4SQAslkk62u8n9z4atBleS7agl+J8nMCAx4qcrCQ==
+"@forestadmin/forestadmin-client@1.27.2":
+  version "1.27.2"
+  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.27.2.tgz#af55ff803449111e3d88a71e6f0fb18f1bf0eead"
+  integrity sha512-pbtcAp2FzycZTPGm8XkvEWkjAe5+yYkDCq6Z1zUYDwI5HxGK58G0T1DIHA1+50+655vkxo7iW44Q3o4sOIozSg==
   dependencies:
     eventsource "2.0.2"
     json-api-serializer "^2.6.6"
@@ -103,19 +103,19 @@
   resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.1.0.tgz#1e3e4bd05c1cc7a0b2ddbd8a03f39f6e4b5e6cfe"
   integrity sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==
 
-"@nestjs/common@^10.3.7":
-  version "10.3.8"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-10.3.8.tgz#2dada4dc8b53aa1630d00bdea57db4453f066c4b"
-  integrity sha512-P+vPEIvqx2e+fonsYVlFXKvoChyJ8Tq+lfpqdVFqblovHbFr3kZ/nYX0cPs+XuW6bnRT8tz0SSR9XBGU43kJhw==
+"@nestjs/common@^10.3.9":
+  version "10.3.9"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-10.3.9.tgz#4e85d8fa6ae201a1c5f49d4d09b205bc3672ed1f"
+  integrity sha512-JAQONPagMa+sy/fcIqh/Hn3rkYQ9pQM51vXCFNOM5ujefxUVqn3gwFRMN8Y1+MxdUHipV+8daEj2jEm0IqJzOA==
   dependencies:
     uid "2.0.2"
     iterare "1.2.1"
     tslib "2.6.2"
 
-"@nestjs/core@^10.3.7":
-  version "10.3.8"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-10.3.8.tgz#0831fc44b51cfe736cf5ffacd17d479dc806eddb"
-  integrity sha512-AxF4tpYLDNn5Wfb3C4bNaaHJ4pREH5FJrSisR2A5zkYpQFORFs0Tc36lOFPMwBTy8Iv2wUwWLUVc5ftBnxEv4w==
+"@nestjs/core@^10.3.9":
+  version "10.3.9"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-10.3.9.tgz#fe3645eb4974423de5503a19d08f85a67693e72f"
+  integrity sha512-NzZUfWAmaf8sqhhwoRA+CuqxQe+P4Rz8PZp5U7CdCbjyeB9ZVGcBkihcJC9wMdtiOWHRndB2J8zRfs5w06jK3w==
   dependencies:
     uid "2.0.2"
     "@nuxtjs/opencollective" "0.3.2"
@@ -260,10 +260,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.63.tgz#1788fa8da838dbb5f9ea994b834278205db6ca2b"
   integrity sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==
 
-"@types/node@^20.12.7":
-  version "20.12.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.7.tgz#04080362fa3dd6c5822061aa3124f5c152cff384"
-  integrity sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==
+"@types/node@^20.14.2":
+  version "20.14.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.2.tgz#a5f4d2bcb4b6a87bffcaa717718c5a0f208f4a18"
+  integrity sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==
   dependencies:
     undici-types "~5.26.4"
 
