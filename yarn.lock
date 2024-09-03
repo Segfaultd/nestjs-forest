@@ -22,14 +22,14 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.41.9":
-  version "1.41.9"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.41.9.tgz#2678d69307ee03054588ec8cd21c9066542917f8"
-  integrity sha512-VyNxWvkP1UCdCL4b3J59GY+3mIrNbcBvgZnbLMEwrCH9q7qTJccQCcjIhQDg/LBoYazGiXWUwFIonx91X6FeOQ==
+"@forestadmin/agent@^1.41.10":
+  version "1.41.10"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.41.10.tgz#afa909c888e7361129738552139bd523051205fe"
+  integrity sha512-RSew2tyKKpjbSvFSeTmbDBJXzJPC/pnPYLQiLRnoYfIZfo9eDy62ag+8iMOw1PeRZTYtpbrupLe5yc+u5nIChw==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
-    "@forestadmin/datasource-customizer" "1.46.1"
+    "@forestadmin/datasource-customizer" "1.47.0"
     "@forestadmin/datasource-toolkit" "1.34.4"
     "@forestadmin/forestadmin-client" "1.27.7"
     "@koa/cors" "^5.0.0"
@@ -47,10 +47,10 @@
     superagent "^8.0.6"
     uuid "^9.0.0"
 
-"@forestadmin/datasource-customizer@1.46.1":
-  version "1.46.1"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.46.1.tgz#b8818693d744e2db71610fda994eb77d342365fd"
-  integrity sha512-0fdLVBN1m0EibSuKaJP3hneEc27QysbtAk6yl4v/n3urqX5YaY2vErMQPKwYqhLCXWtuxpS+jyOdy3I/p88t9A==
+"@forestadmin/datasource-customizer@1.47.0":
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.47.0.tgz#73ba62d1120ed879f3d62174f003bcbd8e8f0bf7"
+  integrity sha512-ES5zZdd1yhDYVsJq+vjlSQmWR2l9BqjObkwbUwjaEABQGbjORJhsVcylbKfXu3IFaK9iD9mJDYXvUexTyPtuTg==
   dependencies:
     "@forestadmin/datasource-toolkit" "1.34.4"
     antlr4 "^4.13.1-patch-1"
