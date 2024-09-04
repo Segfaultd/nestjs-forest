@@ -1,4 +1,4 @@
-import { INestApplication, Inject, Injectable } from "@nestjs/common";
+import { INestApplication, Inject, Injectable, Logger } from "@nestjs/common";
 
 import { Agent, createAgent } from '@forestadmin/agent';
 
@@ -10,10 +10,16 @@ export class ForestService {
     static serviceInstance: ForestService;
 
     private _app: INestApplication | null = null;
+    private readonly _logger = new Logger(ForestService.name);
     private readonly _agent: Agent | null = null;
 
     constructor(@Inject(FOREST_MODULE_OPTIONS) readonly opts?: ForestModuleOptions) {
         if (!opts) {
+            return;
+        }
+
+        if(!opts.authSecret || !opts.envSecret){
+            this._logger.warn('Forest Admin Agent is not configured properly. Please provide the authSecret and envSecret');
             return;
         }
 

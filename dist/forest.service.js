@@ -41,8 +41,13 @@ let ForestService = ForestService_1 = class ForestService {
     constructor(opts) {
         this.opts = opts;
         this._app = null;
+        this._logger = new common_1.Logger(ForestService_1.name);
         this._agent = null;
         if (!opts) {
+            return;
+        }
+        if (!opts.authSecret || !opts.envSecret) {
+            this._logger.warn('Forest Admin Agent is not configured properly. Please provide the authSecret and envSecret');
             return;
         }
         const { datasources } = opts, agentOpts = __rest(opts, ["datasources"]);

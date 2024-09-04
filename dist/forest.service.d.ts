@@ -5,6 +5,7 @@ export declare class ForestService {
     readonly opts?: ForestModuleOptions | undefined;
     static serviceInstance: ForestService;
     private _app;
+    private readonly _logger;
     private readonly _agent;
     constructor(opts?: ForestModuleOptions | undefined);
     static ForestServiceInstance(): ForestService;
