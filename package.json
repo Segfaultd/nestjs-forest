@@ -1,6 +1,6 @@
 {
   "name": "nestjs-forest",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "A NestJS module for Forest Admin",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
