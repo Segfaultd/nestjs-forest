@@ -22,16 +22,16 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.44.0":
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.44.0.tgz#86b8ccc873cce66197fc5d932d940b8f1a7f6a6b"
-  integrity sha512-DQMF+BJEMeIPKFMUV3wBzGqI2Sewl7qD8mqS4qDUUgZVI+i8zGKXhnlh/fieER5mksW0modIldmEF51QDHb2QQ==
+"@forestadmin/agent@^1.46.0":
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.46.0.tgz#3acd70f72c5479f47fcae225a887bbe8282497b0"
+  integrity sha512-FPgDxJSuI9SbvOHR0hCQmeynH2EN+qSdZlLb0w/RdEx2GwjkMtbN3ejGmy1wN1fkQR2IxR0QwVYweNbwoOIP0Q==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
-    "@forestadmin/datasource-customizer" "1.50.0"
-    "@forestadmin/datasource-toolkit" "1.37.0"
-    "@forestadmin/forestadmin-client" "1.30.0"
+    "@forestadmin/datasource-customizer" "1.52.0"
+    "@forestadmin/datasource-toolkit" "1.39.0"
+    "@forestadmin/forestadmin-client" "1.32.0"
     "@koa/cors" "^5.0.0"
     "@koa/router" "^12.0.0"
     "@types/koa__router" "^12.0.0"
@@ -47,31 +47,31 @@
     superagent "^8.0.6"
     uuid "^9.0.0"
 
-"@forestadmin/datasource-customizer@1.50.0":
-  version "1.50.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.50.0.tgz#a2d6012379f5d5776d05d35b9ae235387ba3f0a1"
-  integrity sha512-gc39NLWjcgpzwB8+KPC6/E1Xai6bdOaBG1cImtj0FmkhstToM7KuKjSWnIUUsg2qxDBQM8emOgjAqcUjDNIgig==
+"@forestadmin/datasource-customizer@1.52.0":
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.52.0.tgz#e6200c5be25e1b9909c798625490bcb25872e0b1"
+  integrity sha512-y1DdY0+Aa2uAh37z3auNYgUtyDJYx9mKgZiZSsr4ZHtHroh9kZg6HEuT0lC/s4xjsQK3Fl37bo0HI0NIjM3NNA==
   dependencies:
-    "@forestadmin/datasource-toolkit" "1.37.0"
+    "@forestadmin/datasource-toolkit" "1.39.0"
     antlr4 "^4.13.1-patch-1"
     file-type "^16.5.4"
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "^9.0.0"
 
-"@forestadmin/datasource-toolkit@1.37.0":
-  version "1.37.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.37.0.tgz#35d09b1f1ebf0441d7b4ca9d58d4ca2102ef5cd5"
-  integrity sha512-pWz6+uM5LlHS1XZXmML1X6XZYufwsEq4OLbARpVL1eqNYEKm7SfhXkGzyhucDOI1S3hSJ4FTDadoqtsXMH0vyQ==
+"@forestadmin/datasource-toolkit@1.39.0":
+  version "1.39.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.39.0.tgz#6ee16124154444adf6e4254787214b432dbeac3d"
+  integrity sha512-WI6ybDoehdkvyRpyeIkqX8ftAe82QAAl290JlsfyN9D/ft08b1b+hX2OtF0XmKLwx3mFzgz2h5U0e0Vq8JI7sA==
   dependencies:
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "^9.0.0"
 
-"@forestadmin/forestadmin-client@1.30.0":
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.30.0.tgz#3057f1558ee3695b26aa6bc6a18b60036f61ddbb"
-  integrity sha512-5KRT5dqoFqPbb1UNLZmQvQbwpzj3eEFby4FX9z9mJwZTw7k42NNFobRsHKXYjGDb0QaO4fKPv3wtkA7TEFSr5g==
+"@forestadmin/forestadmin-client@1.32.0":
+  version "1.32.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.32.0.tgz#092678797ff84298b920c84c9620419972a99d90"
+  integrity sha512-mUOk1kLC4Uem9xJ3R5KYQUPZ3y7CYEft/hMr3FatKGEFx1iJNwZ4wd8WGR2cPMpwi2NziRUcDHrN6edg4PaRSw==
   dependencies:
     eventsource "2.0.2"
     json-api-serializer "^2.6.6"
@@ -108,19 +108,19 @@
   resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.1.0.tgz#1e3e4bd05c1cc7a0b2ddbd8a03f39f6e4b5e6cfe"
   integrity sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==
 
-"@nestjs/common@^10.4.1":
-  version "10.4.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-10.4.3.tgz#b9059313d928aea335a4a185a621e32c1858c845"
-  integrity sha512-4hbLd3XIJubHSylYd/1WSi4VQvG68KM/ECYpMDqA3k3J1/T17SAg40sDoq3ZoO5OZgU0xuNyjuISdOTjs11qVg==
+"@nestjs/common@^10.4.4":
+  version "10.4.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-10.4.4.tgz#673d0eca273e1ab3a4d3ec9e212114b9f4fbf6e8"
+  integrity sha512-0j2/zqRw9nvHV1GKTktER8B/hIC/Z8CYFjN/ZqUuvwayCH+jZZBhCR2oRyuvLTXdnlSmtCAg2xvQ0ULqQvzqhA==
   dependencies:
     uid "2.0.2"
     iterare "1.2.1"
     tslib "2.7.0"
 
-"@nestjs/core@^10.4.1":
-  version "10.4.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-10.4.3.tgz#b2a3dcfc6a948a74618feeee8affc3186afe52da"
-  integrity sha512-6OQz+5C8mT8yRtfvE5pPCq+p6w5jDot+oQku1KzQ24ABn+lay1KGuJwcKZhdVNuselx+8xhdMxknZTA8wrGLIg==
+"@nestjs/core@^10.4.4":
+  version "10.4.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-10.4.4.tgz#12cb1110da6d76e12ceccf0e92f6f5220fe27525"
+  integrity sha512-y9tjmAzU6LTh1cC/lWrRsCcOd80khSR0qAHAqwY2svbW+AhsR/XCzgpZrAAKJrm/dDfjLCZKyxJSayeirGcW5Q==
   dependencies:
     uid "2.0.2"
     "@nuxtjs/opencollective" "0.3.2"
