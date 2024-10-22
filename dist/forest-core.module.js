@@ -40,7 +40,7 @@ let ForestCoreModule = ForestCoreModule_1 = class ForestCoreModule {
             exports: [provider, forest_service_1.ForestService],
             imports: options.imports,
             module: ForestCoreModule_1,
-            providers: [...this.createAsyncProviders(options), provider, forest_service_1.ForestService],
+            providers: [...this.createAsyncProviders(options), provider, forest_service_1.ForestService, ...options.extraProviders || []],
         };
     }
     static createAsyncProviders(options) {

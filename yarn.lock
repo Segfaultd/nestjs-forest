@@ -22,16 +22,16 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.50.0":
-  version "1.50.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.50.0.tgz#44ca09223ae544d3107c04d320d58145237930c6"
-  integrity sha512-waPm6cdaDQo+C6g44MbZ/5OkkfHM/8wPXPKTqPGJVwMPWjLolAvpWalx8LzLhQp/BVpJwC16ugjITBMjSQ74HQ==
+"@forestadmin/agent@^1.52.0":
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.52.0.tgz#5570bcef32c20abaec230300c1bb58cff51760e9"
+  integrity sha512-5RbttZ85PQ/GFId3jopaAiVdwtXZiS09B/irzRodiVSlQuZlvASEj1EnLjgB6bOWVZOOTVoJLh9SqEPkvM5NnA==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
-    "@forestadmin/datasource-customizer" "1.55.0"
-    "@forestadmin/datasource-toolkit" "1.42.0"
-    "@forestadmin/forestadmin-client" "1.34.0"
+    "@forestadmin/datasource-customizer" "1.55.2"
+    "@forestadmin/datasource-toolkit" "1.43.0"
+    "@forestadmin/forestadmin-client" "1.34.2"
     "@koa/cors" "^5.0.0"
     "@koa/router" "^12.0.0"
     "@types/koa__router" "^12.0.0"
@@ -47,31 +47,31 @@
     superagent "^8.0.6"
     uuid "^9.0.0"
 
-"@forestadmin/datasource-customizer@1.55.0":
-  version "1.55.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.55.0.tgz#b039fc4f5affa5121d0810bca69ba63bd97b7857"
-  integrity sha512-M+vG5S8vCSwW4/Ibc/fqns8oA1lsGVy3E61E+rXYIDc84aBbVXUctPq5cn3YdJSTWt8SbKAS0fbzVquRLCmMGg==
+"@forestadmin/datasource-customizer@1.55.2":
+  version "1.55.2"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.55.2.tgz#92aef7d058c33aa48fedd1e736db644a5c574f0d"
+  integrity sha512-j4HVXmUrWITUvBKkEBpUQVUtsqIg3gsDMM3Ld0EgeDqB5+AClv7jW6VxIYP0oV4XZPPQsCH3gg8GvklU5ldHWA==
   dependencies:
-    "@forestadmin/datasource-toolkit" "1.42.0"
+    "@forestadmin/datasource-toolkit" "1.43.0"
     antlr4 "^4.13.1-patch-1"
     file-type "^16.5.4"
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "^9.0.0"
 
-"@forestadmin/datasource-toolkit@1.42.0":
-  version "1.42.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.42.0.tgz#cae074093ccc9c849a831cb5e5c07e19b4e05bc2"
-  integrity sha512-e/S6edjiwhmW2qx83v7OmAF7QFOEiRbY6iLRzBAiLAe1pj9VyRdC8LHeKRYo2jaedl4CyNHL42bR7A1KIjAMuw==
+"@forestadmin/datasource-toolkit@1.43.0":
+  version "1.43.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.43.0.tgz#d9b1ab2ce52c338a0fdf9be4149b3222c5762958"
+  integrity sha512-LBtIt+z2dUPTs4ypgCA6/AlP1xJlFiz6Z+N7mz+h78HOITnaWLVF0F0Hmljav0EFI2/evtR3AghohYAeS0wiLg==
   dependencies:
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "^9.0.0"
 
-"@forestadmin/forestadmin-client@1.34.0":
-  version "1.34.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.34.0.tgz#6f4603876e7110cd6855b3c3984802699b02ae6c"
-  integrity sha512-OxVdQZUjnFWgxneyuimrSQxbYTy//g9+N2WvcAVE6/zIv1OB/UmdWnvY4J6HxpnXRt/VY9mS7M78guJ2EsvSlA==
+"@forestadmin/forestadmin-client@1.34.2":
+  version "1.34.2"
+  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.34.2.tgz#fe79275560c836bfac5b1742304b991263aefac4"
+  integrity sha512-aLjHrL7x6cPIrDRlTojHZqwV65TMEV7iIOG/oRg7Y7cT0W7NYvBmClww5I7fHNiyn91kZY1ugg4tSEFt8MhxXw==
   dependencies:
     eventsource "2.0.2"
     json-api-serializer "^2.6.6"
@@ -108,19 +108,19 @@
   resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.1.0.tgz#1e3e4bd05c1cc7a0b2ddbd8a03f39f6e4b5e6cfe"
   integrity sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==
 
-"@nestjs/common@^10.4.4":
-  version "10.4.4"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-10.4.4.tgz#673d0eca273e1ab3a4d3ec9e212114b9f4fbf6e8"
-  integrity sha512-0j2/zqRw9nvHV1GKTktER8B/hIC/Z8CYFjN/ZqUuvwayCH+jZZBhCR2oRyuvLTXdnlSmtCAg2xvQ0ULqQvzqhA==
+"@nestjs/common@^10.4.5":
+  version "10.4.5"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-10.4.5.tgz#00853da6ea7794743641aa0c098f23dc7480fc4f"
+  integrity sha512-N/yUyuYCBMb0+H6jHhntR7PURzji0usID/DByhOfooyk/aPGscI0aQKwOA6edlJlT92hHUvXYLJ5p3npj7KcjQ==
   dependencies:
     uid "2.0.2"
     iterare "1.2.1"
     tslib "2.7.0"
 
-"@nestjs/core@^10.4.4":
-  version "10.4.4"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-10.4.4.tgz#12cb1110da6d76e12ceccf0e92f6f5220fe27525"
-  integrity sha512-y9tjmAzU6LTh1cC/lWrRsCcOd80khSR0qAHAqwY2svbW+AhsR/XCzgpZrAAKJrm/dDfjLCZKyxJSayeirGcW5Q==
+"@nestjs/core@^10.4.5":
+  version "10.4.5"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-10.4.5.tgz#448ebfb315363fadc920b111acd99c702768d344"
+  integrity sha512-wk0KJ+6tuidqAdeemsQ40BCp1BgMsSuSLG577aqXLxXYoa8FQYPrdxoSzd05znYLwJYM55fisZWb3FLF9HT2qw==
   dependencies:
     uid "2.0.2"
     "@nuxtjs/opencollective" "0.3.2"
@@ -260,10 +260,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.63.tgz#1788fa8da838dbb5f9ea994b834278205db6ca2b"
   integrity sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==
 
-"@types/node@^20.14.10":
-  version "20.16.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.16.5.tgz#d43c7f973b32ffdf9aa7bd4f80e1072310fd7a53"
-  integrity sha512-VwYCweNo3ERajwy0IUlqqcyZ8/A7Zwa9ZP3MnENWcB11AejO+tLy3pu850goUW2FC/IJMdZUfKpX/yxL1gymCA==
+"@types/node@^22.7.8":
+  version "22.7.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.8.tgz#a1dbf0dc5f71bdd2642fc89caef65d58747ce825"
+  integrity sha512-a922jJy31vqR5sk+kAdIENJjHblqcZ4RmERviFsER4WJcEONqxKcjNOlk0q7OUfrF5sddT+vng070cdfMlrPLg==
   dependencies:
     undici-types "~6.19.2"
 
@@ -1457,10 +1457,10 @@ type-is@^1.6.16, type-is@^1.6.18, type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@^5.5.4:
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.2.tgz#d1de67b6bef77c41823f822df8f0b3bcff60a5a0"
-  integrity sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==
+typescript@^5.6.3:
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.3.tgz#5f3449e31c9d94febb17de03cc081dd56d81db5b"
+  integrity sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==
 
 uid@2.0.2:
   version "2.0.2"

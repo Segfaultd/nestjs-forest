@@ -29,7 +29,7 @@ export class ForestCoreModule {
             exports: [provider, ForestService],
             imports: options.imports,
             module: ForestCoreModule,
-            providers: [...this.createAsyncProviders(options), provider, ForestService],
+            providers: [...this.createAsyncProviders(options), provider, ForestService, ...options.extraProviders || []],
         };
     }
 

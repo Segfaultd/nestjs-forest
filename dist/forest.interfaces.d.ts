@@ -1,4 +1,4 @@
-import { ModuleMetadata, Type } from '@nestjs/common/interfaces';
+import { ModuleMetadata, Provider, Type } from '@nestjs/common';
 import { AgentOptions } from '@forestadmin/agent';
 export type ForestModuleOptions = {
     datasources?: any[];
@@ -8,6 +8,7 @@ export interface ForestOptionsFactory {
 }
 export interface ForestModuleAsyncOptions extends Pick<ModuleMetadata, 'imports'> {
     inject?: any[];
+    extraProviders?: Provider[];
     useClass?: Type<ForestOptionsFactory>;
     useExisting?: Type<ForestOptionsFactory>;
     useFactory?: (...args: any[]) => Promise<ForestModuleOptions> | ForestModuleOptions;
