@@ -22,14 +22,14 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.52.0.tgz#5570bcef32c20abaec230300c1bb58cff51760e9"
-  integrity sha512-5RbttZ85PQ/GFId3jopaAiVdwtXZiS09B/irzRodiVSlQuZlvASEj1EnLjgB6bOWVZOOTVoJLh9SqEPkvM5NnA==
+"@forestadmin/agent@^1.52.1":
+  version "1.52.1"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.52.1.tgz#ad28ee4eb3463de1649d8f8b1ae268f8cbcd7007"
+  integrity sha512-M/mGnn6Ma8Ix6g8QeaxJpJhJE8980GjNtFo5AWFdqC22BEgh+42RWj826MJjpkpnZ8bvP+gb005cbd2+DqSztg==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
-    "@forestadmin/datasource-customizer" "1.55.2"
+    "@forestadmin/datasource-customizer" "1.55.3"
     "@forestadmin/datasource-toolkit" "1.43.0"
     "@forestadmin/forestadmin-client" "1.34.2"
     "@koa/cors" "^5.0.0"
@@ -47,10 +47,10 @@
     superagent "^8.0.6"
     uuid "^9.0.0"
 
-"@forestadmin/datasource-customizer@1.55.2":
-  version "1.55.2"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.55.2.tgz#92aef7d058c33aa48fedd1e736db644a5c574f0d"
-  integrity sha512-j4HVXmUrWITUvBKkEBpUQVUtsqIg3gsDMM3Ld0EgeDqB5+AClv7jW6VxIYP0oV4XZPPQsCH3gg8GvklU5ldHWA==
+"@forestadmin/datasource-customizer@1.55.3":
+  version "1.55.3"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.55.3.tgz#e8e2dc337a154f3919e5b84be262c1298da81862"
+  integrity sha512-FHsLbFDpXRO4H+XgUHSWfUue+Xw5Sh1vfI68S4zSeHVOPsHPA1l64ox71Ozs/lQRDmeeO39TkCjTDeKn3iksIg==
   dependencies:
     "@forestadmin/datasource-toolkit" "1.43.0"
     antlr4 "^4.13.1-patch-1"
@@ -260,12 +260,12 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.63.tgz#1788fa8da838dbb5f9ea994b834278205db6ca2b"
   integrity sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==
 
-"@types/node@^22.7.9":
-  version "22.7.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.9.tgz#2bf2797b5e84702d8262ea2cf843c3c3c880d0e9"
-  integrity sha512-jrTfRC7FM6nChvU7X2KqcrgquofrWLFDeYC1hKfwNWomVvrn7JIksqf344WN2X/y8xrgqBd2dJATZV4GbatBfg==
+"@types/node@^22.8.7":
+  version "22.8.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.8.7.tgz#04ab7a073d95b4a6ee899f235d43f3c320a976f4"
+  integrity sha512-LidcG+2UeYIWcMuMUpBKOnryBWG/rnmOHQR5apjn8myTQcx3rinFRn7DcIFhMnS0PPFSC6OafdIKEad0lj6U0Q==
   dependencies:
-    undici-types "~6.19.2"
+    undici-types "~6.19.8"
 
 "@types/qs@*":
   version "6.9.16"
@@ -1469,7 +1469,7 @@ uid@2.0.2:
   dependencies:
     "@lukeed/csprng" "^1.0.0"
 
-undici-types@~6.19.2:
+undici-types@~6.19.2, undici-types@~6.19.8:
   version "6.19.8"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
   integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
