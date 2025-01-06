@@ -22,16 +22,16 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.56.1":
-  version "1.56.1"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.56.1.tgz#191a12ea10e978b72e905474d159602f2cd7ae5a"
-  integrity sha512-arn4tHry9hZra4uf4KSGfkg9EGvH4xqHAKUWiXKAXMEoMnUnaHnm0JeF9hInsfg+ObQ+YslpDpDTRZ2nHhnG9Q==
+"@forestadmin/agent@^1.57.0":
+  version "1.57.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.57.0.tgz#926a399d1c60c9dbab715b93d5e3872b02495bc2"
+  integrity sha512-cC6KP55P2fszqg6OtyZABnJH8m+9uMD3zJiEHOVqh6GsDLnZmJ3XKwow+CM7TeKNNb/DE7+MRQPV5l4cxNFMJQ==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
-    "@forestadmin/datasource-customizer" "1.57.1"
-    "@forestadmin/datasource-toolkit" "1.45.1"
-    "@forestadmin/forestadmin-client" "1.36.1"
+    "@forestadmin/datasource-customizer" "1.58.0"
+    "@forestadmin/datasource-toolkit" "1.46.0"
+    "@forestadmin/forestadmin-client" "1.36.3"
     "@koa/cors" "^5.0.0"
     "@koa/router" "^12.0.0"
     "@types/koa__router" "^12.0.0"
@@ -47,31 +47,31 @@
     superagent "^8.0.6"
     uuid "^9.0.0"
 
-"@forestadmin/datasource-customizer@1.57.1":
-  version "1.57.1"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.57.1.tgz#e2955071c79d12df79090acd3f1acf66792464a9"
-  integrity sha512-SdEWoIM9NZk/hBr/DpqZdSmDd5tWfWSqJLvaeBSXqiNLapIwz4PLRoInz51mD0PBuhiH4CzYRR2wU1IONtROlg==
+"@forestadmin/datasource-customizer@1.58.0":
+  version "1.58.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.58.0.tgz#e0e7cde086f6c5ee3ec6b43b9e6aba74b99d18ab"
+  integrity sha512-98PSG1XssjynxaFVhL55FctySz2N/bVji2dFfJT2LFFsQsf9JTPukMJSXWM/EpVBjn02e9sACWIunrcGmXWzIA==
   dependencies:
-    "@forestadmin/datasource-toolkit" "1.45.1"
+    "@forestadmin/datasource-toolkit" "1.46.0"
     antlr4 "^4.13.1-patch-1"
     file-type "^16.5.4"
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "^9.0.0"
 
-"@forestadmin/datasource-toolkit@1.45.1":
-  version "1.45.1"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.45.1.tgz#cd859ee636bf3a42cdc4b743fe00acb72cdc147b"
-  integrity sha512-eUcLvftBFr8ok7+wLyGhNagmwr4hEh6KCkLYmy/qdGER2DqgNbhuvxJXXeR3wl1VW4GsYajaXv1UjIJq2xQijw==
+"@forestadmin/datasource-toolkit@1.46.0":
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.46.0.tgz#e3461fcc2a8c76826315dce78fe80b90e653ddb1"
+  integrity sha512-1PfQPWGSTXPRLhZdyaDUW+jGTiumjeSLQtnR6i0hccAKAmaANZsUgaU/v7IaGiEuGXvc1ZZyppNaR4aGez6kBg==
   dependencies:
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "^9.0.0"
 
-"@forestadmin/forestadmin-client@1.36.1":
-  version "1.36.1"
-  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.36.1.tgz#43f55dda195aae5417723ab5c10d8e92bdf46f18"
-  integrity sha512-obZ+TtQJZ2GnFAJJxoJ8JIHA5qCT8zQesofH8D6nRSbTLk4e4xk37jp2cXYqhvKniGjNHMfrV1oX/9ZO3DcASg==
+"@forestadmin/forestadmin-client@1.36.3":
+  version "1.36.3"
+  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.36.3.tgz#1c0c87a0ee54ac6956ce3b1b6e0253ab16e8d50a"
+  integrity sha512-uwzkXy69NRWdPSwg5crStirgEQSCABh+uxRbEGi6YgYDGTM9pcgUIIvwDsh7eNoLOM4oxo6oU6WHWCl5RInokQ==
   dependencies:
     eventsource "2.0.2"
     json-api-serializer "^2.6.6"
@@ -260,10 +260,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.63.tgz#1788fa8da838dbb5f9ea994b834278205db6ca2b"
   integrity sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==
 
-"@types/node@^22.10.2":
-  version "22.10.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.2.tgz#a485426e6d1fdafc7b0d4c7b24e2c78182ddabb9"
-  integrity sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==
+"@types/node@^22.10.5":
+  version "22.10.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.5.tgz#95af89a3fb74a2bb41ef9927f206e6472026e48b"
+  integrity sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==
   dependencies:
     undici-types "~6.20.0"
 
