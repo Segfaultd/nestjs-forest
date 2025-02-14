@@ -22,16 +22,16 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.58.5":
-  version "1.58.5"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.58.5.tgz#8f9f22aa5790c9385294b0d43f88be8035d16426"
-  integrity sha512-EFnsTPqo4Xon4paCPKMI3nIX72VEA+7gP9OBEnf7qE1x0sFDCXNzO81e86O3ZmzQ7PBv44ZxagV/JUCdmovs3w==
+"@forestadmin/agent@^1.59.1":
+  version "1.59.1"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.59.1.tgz#865cb60ecc4a83809d85c124af7891d36afec5b7"
+  integrity sha512-ZXV9AhWeRldBIu89b+HjDk0vLekMQeXCvba+d6xd4eFD48gcud0SJhRbZkQ87WOzdf9IqlZ0YTZuoyBYdCUBBA==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
-    "@forestadmin/datasource-customizer" "1.61.2"
-    "@forestadmin/datasource-toolkit" "1.47.1"
-    "@forestadmin/forestadmin-client" "1.36.7"
+    "@forestadmin/datasource-customizer" "1.61.3"
+    "@forestadmin/datasource-toolkit" "1.48.0"
+    "@forestadmin/forestadmin-client" "1.36.8"
     "@koa/cors" "^5.0.0"
     "@koa/router" "^12.0.0"
     "@types/koa__router" "^12.0.0"
@@ -47,31 +47,31 @@
     superagent "^8.0.6"
     uuid "11.0.2"
 
-"@forestadmin/datasource-customizer@1.61.2":
-  version "1.61.2"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.61.2.tgz#1aa155e10e6b6b3955cdf981082c5243e07bfb82"
-  integrity sha512-nqXcBbtX1GaUwP8y5eIMUB0oSQAGNjZFJB+2+BgwZ3PgkvDjXBexkeCqpl3ELVMqCYp2xIABnrp5hpkHBhm7sQ==
+"@forestadmin/datasource-customizer@1.61.3":
+  version "1.61.3"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.61.3.tgz#f8b036df332ef891a1f607e23a2d4e615bda9374"
+  integrity sha512-cEpweyC4nk3awCMrdwkgNDps2gbk+n+3gNNSyPOgL0QrQZQcXUnWZkJNFbcftC0ytQvSVJ/b222nXmmH60ss9w==
   dependencies:
-    "@forestadmin/datasource-toolkit" "1.47.1"
+    "@forestadmin/datasource-toolkit" "1.48.0"
     antlr4 "^4.13.1-patch-1"
     file-type "^16.5.4"
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "11.0.2"
 
-"@forestadmin/datasource-toolkit@1.47.1":
-  version "1.47.1"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.47.1.tgz#3b0051f49ec9313cc6e40d28b4679275bc3e5d4a"
-  integrity sha512-H+FOjYR1bDBuHxqJPMNYldstjXsvCB3+a3I1xR8xz+d6aHRf6bQVr1N/JJB7KOi3vXOxxFbF/WdJU+L8mNat5A==
+"@forestadmin/datasource-toolkit@1.48.0":
+  version "1.48.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.48.0.tgz#79550a388f617c71952690c614c0490839c4a6ae"
+  integrity sha512-il6Zqg5EsJHTCTMp+Z7nkB4Ss601x2MzIRKBvmhZahNN3aJwvPcNTnO4Jz/3zmSmTp6oeA4K2STEwrx4PUDupQ==
   dependencies:
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "11.0.2"
 
-"@forestadmin/forestadmin-client@1.36.7":
-  version "1.36.7"
-  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.36.7.tgz#9ff33933dd43ffefab285ac7384b43dc8f7f9a38"
-  integrity sha512-yqaUvWxebBHIbdFup8X7+CURWhq+Vk78OtNCa1N9BCiPWfZhdGyB7CNxeP+Mz4Qzf6XSzwE8PQ65GGPkm1rOfw==
+"@forestadmin/forestadmin-client@1.36.8":
+  version "1.36.8"
+  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.36.8.tgz#49bef964790a325d1212f5ad8cd74c464732adc4"
+  integrity sha512-RRvmk939eGbj63ctqPNldXtDjLHsDQT7J+FTZdKTxxLIPC52LFx//r/AQXvKIFvinP4EdBDTc6CFFMxWNfVY7A==
   dependencies:
     eventsource "2.0.2"
     json-api-serializer "^2.6.6"
@@ -108,19 +108,19 @@
   resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.1.0.tgz#1e3e4bd05c1cc7a0b2ddbd8a03f39f6e4b5e6cfe"
   integrity sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==
 
-"@nestjs/common@^11.0.7":
-  version "11.0.7"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.0.7.tgz#a109ab6a60b70d106eee9987da7bf39e91096362"
-  integrity sha512-2HXwaFem0IUCMoruOIC57wSxuRBBRJQwfcuHw6dsL15bqekpgmR8I53zT4RGfX7bgRDr8tINvzRun8PFeSiVgA==
+"@nestjs/common@^11.0.9":
+  version "11.0.9"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.0.9.tgz#d85a2a59eed8bdce9457f2a80e7555fb018299cc"
+  integrity sha512-+SKMYQE7O55tJGQVibnAlR9sXRBCF/8gM1cILdLT7cLj7+51NYD7eAHuAcGYiQIyXsTehZoO7C+B7S3ibNi3aw==
   dependencies:
     uid "2.0.2"
     iterare "1.2.1"
     tslib "2.8.1"
 
-"@nestjs/core@^11.0.7":
-  version "11.0.7"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-11.0.7.tgz#1074070184c5bc5dafd2ecc4b406ae49417c106d"
-  integrity sha512-LRijT+lXBpWjySJDNI+P18T+JiYOrpIBP/y8B+ObJN+sdaV3AFNT8cdf1U4hnkDbNGuIvVx1yNiRi6QNNVyw3A==
+"@nestjs/core@^11.0.9":
+  version "11.0.9"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-11.0.9.tgz#067239809fd050c72e913b62455a0b6afb7249af"
+  integrity sha512-w32ZF1acSnidiRERGRC/Ki7eSrnTdP7twRnjy15Qnmij3oYRCdgX5aZvbUNv17A7bn9S22p+wMNcpHxqwUiOsQ==
   dependencies:
     uid "2.0.2"
     "@nuxt/opencollective" "0.4.1"
@@ -258,10 +258,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.63.tgz#1788fa8da838dbb5f9ea994b834278205db6ca2b"
   integrity sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==
 
-"@types/node@^22.13.0":
-  version "22.13.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.0.tgz#d376dd9a0ee2f9382d86c2d5d7beb4d198b4ea8c"
-  integrity sha512-ClIbNe36lawluuvq3+YYhnIN2CELi+6q8NpnM7PYp4hBn/TatfboPgVSm2rwKRfnV2M+Ty9GWDFI64KEe+kysA==
+"@types/node@^22.13.4":
+  version "22.13.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.4.tgz#3fe454d77cd4a2d73c214008b3e331bfaaf5038a"
+  integrity sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==
   dependencies:
     undici-types "~6.20.0"
 
