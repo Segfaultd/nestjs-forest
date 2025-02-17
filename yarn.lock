@@ -22,14 +22,14 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.59.1":
-  version "1.59.1"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.59.1.tgz#865cb60ecc4a83809d85c124af7891d36afec5b7"
-  integrity sha512-ZXV9AhWeRldBIu89b+HjDk0vLekMQeXCvba+d6xd4eFD48gcud0SJhRbZkQ87WOzdf9IqlZ0YTZuoyBYdCUBBA==
+"@forestadmin/agent@^1.59.2":
+  version "1.59.2"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.59.2.tgz#8f7330da268b040a1e82dd0d00dd42149d7448f9"
+  integrity sha512-MrdfRqRBKk0v5b6UG/GigfvBIg7ritSBa07m+E+9RHGKiJzDY1oaZxsMf1v6Mw5sEBFywjzrGcAvvQNldN5RmQ==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
-    "@forestadmin/datasource-customizer" "1.61.3"
+    "@forestadmin/datasource-customizer" "1.62.0"
     "@forestadmin/datasource-toolkit" "1.48.0"
     "@forestadmin/forestadmin-client" "1.36.8"
     "@koa/cors" "^5.0.0"
@@ -39,7 +39,7 @@
     json-api-serializer "^2.6.6"
     json-stringify-pretty-compact "^3.0.0"
     jsonwebtoken "^9.0.0"
-    koa "^2.14.1"
+    koa "^2.15.4"
     koa-bodyparser "^4.3.0"
     koa-jwt "^4.0.4"
     luxon "^3.2.1"
@@ -47,10 +47,10 @@
     superagent "^8.0.6"
     uuid "11.0.2"
 
-"@forestadmin/datasource-customizer@1.61.3":
-  version "1.61.3"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.61.3.tgz#f8b036df332ef891a1f607e23a2d4e615bda9374"
-  integrity sha512-cEpweyC4nk3awCMrdwkgNDps2gbk+n+3gNNSyPOgL0QrQZQcXUnWZkJNFbcftC0ytQvSVJ/b222nXmmH60ss9w==
+"@forestadmin/datasource-customizer@1.62.0":
+  version "1.62.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.62.0.tgz#f6309647449da5e41b5e44e12531ec3386723f06"
+  integrity sha512-Deo8bwAe/zjLtBtazmxGw3eJ/txuUjJ4aVPCv5OVBCAYjcHYwOB0ChTq8v+ShBocw83Fs8jKraH9npWcHRZ+eQ==
   dependencies:
     "@forestadmin/datasource-toolkit" "1.48.0"
     antlr4 "^4.13.1-patch-1"
@@ -108,19 +108,19 @@
   resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.1.0.tgz#1e3e4bd05c1cc7a0b2ddbd8a03f39f6e4b5e6cfe"
   integrity sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==
 
-"@nestjs/common@^11.0.9":
-  version "11.0.9"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.0.9.tgz#d85a2a59eed8bdce9457f2a80e7555fb018299cc"
-  integrity sha512-+SKMYQE7O55tJGQVibnAlR9sXRBCF/8gM1cILdLT7cLj7+51NYD7eAHuAcGYiQIyXsTehZoO7C+B7S3ibNi3aw==
+"@nestjs/common@^11.0.10":
+  version "11.0.10"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.0.10.tgz#c300168171896d0ae7d189e5237ab6c30d1b64ef"
+  integrity sha512-pzGXp14KF2Q4CDZGQgPK4l8zEg7i6cNkb+10yc8ZA5K41cLe3ZbWW1YxtY2e/glHauOJwTLSVjH4tiRVtOTizg==
   dependencies:
     uid "2.0.2"
     iterare "1.2.1"
     tslib "2.8.1"
 
-"@nestjs/core@^11.0.9":
-  version "11.0.9"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-11.0.9.tgz#067239809fd050c72e913b62455a0b6afb7249af"
-  integrity sha512-w32ZF1acSnidiRERGRC/Ki7eSrnTdP7twRnjy15Qnmij3oYRCdgX5aZvbUNv17A7bn9S22p+wMNcpHxqwUiOsQ==
+"@nestjs/core@^11.0.10":
+  version "11.0.10"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-11.0.10.tgz#d75ecbf0a51e3be194c0827812a474d6e97d1c4a"
+  integrity sha512-f0qB8ztNWZeAD4E4fUdHConmNYCa/A78U7WJu5mX9OLYfOAs3ESYCDfsH9MRUvkA4Ft4Y1uMmyJo5L4fg4+beg==
   dependencies:
     uid "2.0.2"
     "@nuxt/opencollective" "0.4.1"
@@ -924,10 +924,10 @@ koa-unless@^1.0.7:
   resolved "https://registry.yarnpkg.com/koa-unless/-/koa-unless-1.0.7.tgz#b9df375e2b4da3043918d48622520c2c0b79f032"
   integrity sha512-NKiz+nk4KxSJFskiJMuJvxeA41Lcnx3d8Zy+8QETgifm4ab4aOeGD3RgR6bIz0FGNWwo3Fz0DtnK77mEIqHWxA==
 
-koa@^2.14.1:
-  version "2.15.3"
-  resolved "https://registry.yarnpkg.com/koa/-/koa-2.15.3.tgz#062809266ee75ce0c75f6510a005b0e38f8c519a"
-  integrity sha512-j/8tY9j5t+GVMLeioLaxweJiKUayFhlGqNTzf2ZGwL0ZCQijd2RLHK0SLW5Tsko8YyyqCZC2cojIb0/s62qTAg==
+koa@^2.15.4:
+  version "2.15.4"
+  resolved "https://registry.yarnpkg.com/koa/-/koa-2.15.4.tgz#7000b3d8354558671adb1ba1b1c09bedb5f8da75"
+  integrity sha512-7fNBIdrU2PEgLljXoPWoyY4r1e+ToWCmzS/wwMPbUNs7X+5MMET1ObhJBlUkF5uZG9B6QhM2zS1TsH6adegkiQ==
   dependencies:
     accepts "^1.3.5"
     cache-content-type "^1.0.0"
