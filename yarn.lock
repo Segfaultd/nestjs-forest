@@ -22,16 +22,16 @@
     express "^4.17.1"
     fastify-plugin "^3.0.0"
 
-"@forestadmin/agent@^1.59.2":
-  version "1.59.2"
-  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.59.2.tgz#8f7330da268b040a1e82dd0d00dd42149d7448f9"
-  integrity sha512-MrdfRqRBKk0v5b6UG/GigfvBIg7ritSBa07m+E+9RHGKiJzDY1oaZxsMf1v6Mw5sEBFywjzrGcAvvQNldN5RmQ==
+"@forestadmin/agent@^1.60.0":
+  version "1.60.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/agent/-/agent-1.60.0.tgz#369eafd08269b655c5c3ff2a542f9306a481c841"
+  integrity sha512-mF0kcnJtLP5VowbARZncCA1yphZ9aUR5AZCID4aBTUhS47eUC+y4b4hqJFA5VIlkwMiqm9qLlt0Ij8gd0nNqcQ==
   dependencies:
     "@fast-csv/format" "^4.3.5"
     "@fastify/express" "^1.1.0"
-    "@forestadmin/datasource-customizer" "1.62.0"
-    "@forestadmin/datasource-toolkit" "1.48.0"
-    "@forestadmin/forestadmin-client" "1.36.8"
+    "@forestadmin/datasource-customizer" "1.63.0"
+    "@forestadmin/datasource-toolkit" "1.49.0"
+    "@forestadmin/forestadmin-client" "1.36.9"
     "@koa/cors" "^5.0.0"
     "@koa/router" "^12.0.0"
     "@types/koa__router" "^12.0.0"
@@ -47,31 +47,31 @@
     superagent "^8.0.6"
     uuid "11.0.2"
 
-"@forestadmin/datasource-customizer@1.62.0":
-  version "1.62.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.62.0.tgz#f6309647449da5e41b5e44e12531ec3386723f06"
-  integrity sha512-Deo8bwAe/zjLtBtazmxGw3eJ/txuUjJ4aVPCv5OVBCAYjcHYwOB0ChTq8v+ShBocw83Fs8jKraH9npWcHRZ+eQ==
+"@forestadmin/datasource-customizer@1.63.0":
+  version "1.63.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-customizer/-/datasource-customizer-1.63.0.tgz#741577979bfb148d8d475b60380d3a55743b650c"
+  integrity sha512-UJEvDtk04kmhIfUdGlM6/OEoqPvf4doX2wsxhU3/1LLRm9jjPEWexagxAnJ2sPh9uqJFLI3IyOMh3qbzgzmgIA==
   dependencies:
-    "@forestadmin/datasource-toolkit" "1.48.0"
+    "@forestadmin/datasource-toolkit" "1.49.0"
     antlr4 "^4.13.1-patch-1"
     file-type "^16.5.4"
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "11.0.2"
 
-"@forestadmin/datasource-toolkit@1.48.0":
-  version "1.48.0"
-  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.48.0.tgz#79550a388f617c71952690c614c0490839c4a6ae"
-  integrity sha512-il6Zqg5EsJHTCTMp+Z7nkB4Ss601x2MzIRKBvmhZahNN3aJwvPcNTnO4Jz/3zmSmTp6oeA4K2STEwrx4PUDupQ==
+"@forestadmin/datasource-toolkit@1.49.0":
+  version "1.49.0"
+  resolved "https://registry.yarnpkg.com/@forestadmin/datasource-toolkit/-/datasource-toolkit-1.49.0.tgz#4662b932f4e53ba6f7bb4faa240b674a2a5d56ee"
+  integrity sha512-9lzU1XijtOKGtUO08B3rRZkQA6Ce25Z+nUsLumw2k2jNk8o+WaBnQOqDBr7InWNxHPPt3ToDPLvz03YPyxbM0w==
   dependencies:
     luxon "^3.2.1"
     object-hash "^3.0.0"
     uuid "11.0.2"
 
-"@forestadmin/forestadmin-client@1.36.8":
-  version "1.36.8"
-  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.36.8.tgz#49bef964790a325d1212f5ad8cd74c464732adc4"
-  integrity sha512-RRvmk939eGbj63ctqPNldXtDjLHsDQT7J+FTZdKTxxLIPC52LFx//r/AQXvKIFvinP4EdBDTc6CFFMxWNfVY7A==
+"@forestadmin/forestadmin-client@1.36.9":
+  version "1.36.9"
+  resolved "https://registry.yarnpkg.com/@forestadmin/forestadmin-client/-/forestadmin-client-1.36.9.tgz#fb6012f05d44dcb1122faa3ef871fb213f76d893"
+  integrity sha512-XP4Oi0daVOCzA60CJ6wyJbmywb++EYjEtJhV4Iq9+KrSe7d+P8AtJ5qjD1W5yW1EkIgxdjQOhs0fnCbrekDkpQ==
   dependencies:
     eventsource "2.0.2"
     json-api-serializer "^2.6.6"
