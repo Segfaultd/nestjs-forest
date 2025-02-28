@@ -108,19 +108,19 @@
   resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.1.0.tgz#1e3e4bd05c1cc7a0b2ddbd8a03f39f6e4b5e6cfe"
   integrity sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==
 
-"@nestjs/common@^11.0.10":
-  version "11.0.10"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.0.10.tgz#c300168171896d0ae7d189e5237ab6c30d1b64ef"
-  integrity sha512-pzGXp14KF2Q4CDZGQgPK4l8zEg7i6cNkb+10yc8ZA5K41cLe3ZbWW1YxtY2e/glHauOJwTLSVjH4tiRVtOTizg==
+"@nestjs/common@^11.0.11":
+  version "11.0.11"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.0.11.tgz#6ae7bb7a7dce323179fb93ca016b27350853ce5c"
+  integrity sha512-b3zYiho5/XGCnLa7W2hHv5ecSBR1huQrXCHu6pxd+g2HY2B7sKP5CXHMv4gHYqpIqu4ClOb7Q4tLKXMp9LyLUg==
   dependencies:
     uid "2.0.2"
     iterare "1.2.1"
     tslib "2.8.1"
 
-"@nestjs/core@^11.0.10":
-  version "11.0.10"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-11.0.10.tgz#d75ecbf0a51e3be194c0827812a474d6e97d1c4a"
-  integrity sha512-f0qB8ztNWZeAD4E4fUdHConmNYCa/A78U7WJu5mX9OLYfOAs3ESYCDfsH9MRUvkA4Ft4Y1uMmyJo5L4fg4+beg==
+"@nestjs/core@^11.0.11":
+  version "11.0.11"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-11.0.11.tgz#bb86a0454d6d49929a7ceb06238740bcfcb66d4e"
+  integrity sha512-jMH3jrjrPiaGrkQ5hANNcgDWN+j+hcM5GMQ3jSs4vOWNs3lmKHTVR11wJ9y5tTNnwKydzMogeju0VTUdfXDI5Q==
   dependencies:
     uid "2.0.2"
     "@nuxt/opencollective" "0.4.1"
@@ -258,10 +258,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.63.tgz#1788fa8da838dbb5f9ea994b834278205db6ca2b"
   integrity sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==
 
-"@types/node@^22.13.4":
-  version "22.13.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.4.tgz#3fe454d77cd4a2d73c214008b3e331bfaaf5038a"
-  integrity sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==
+"@types/node@^22.13.5":
+  version "22.13.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.5.tgz#23add1d71acddab2c6a4d31db89c0f98d330b511"
+  integrity sha512-+lTU0PxZXn0Dr1NBtC7Y8cR21AJr87dLLU953CWA6pMxxv/UDc7jYAY90upcrie1nRcD6XNG5HOYEDtgW5TxAg==
   dependencies:
     undici-types "~6.20.0"
 
