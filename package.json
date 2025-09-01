@@ -1,6 +1,6 @@
 {
   "name": "nestjs-forest",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "A NestJS module for Forest Admin",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -18,13 +18,14 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
   },
   "dependencies": {
-    "@forestadmin/agent": "^1.64.5",
+    "@forestadmin/agent": "^1.65.0",
     "@nestjs/common": "^11.1.6",
     "@nestjs/core": "^11.1.6"
   },
   "devDependencies": {
-    "@types/node": "^24.2.1",
+    "@types/node": "^24.3.0",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.2"
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
